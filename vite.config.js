@@ -3,8 +3,9 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+  base: '/online-portfolio/',  // Set this to your repo name
   server: {
-    port: 5173, // Force Vite to use port 5173
+    port: 5173,
   },
-  base: '/',
 });
+
