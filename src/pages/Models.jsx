@@ -16,8 +16,8 @@ const Models = () => {
         <div className='p-5 overflow-x-scroll'>
         <h2 className="text-lg mb-2 font-semibold">Here are a list of models:</h2>
             <ul className="italic block">
-                <li><a href="https://puso90.github.io/Lotto-Numbers-App/">LOTTO NUMBER APP</a></li>
-                <li><a>YOURCATER - Food Delivery Platform</a></li>
+                <li><a href="https://puso90.github.io/Lotto-Numbers-App/">♦ LOTTO NUMBER APP</a></li>
+                <li><a>♦ YOURCATER - Food Delivery Platform</a></li>
             </ul>
         </div>
         
