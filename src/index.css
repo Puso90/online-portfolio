@@ -700,3 +700,23 @@ code {
         justify-content: center
     }
 }
+
+
+/* Hiding sensitive data */
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+  }
+  
+  .data-hide-overlay {
+    position: absolute;
+    top: 30px; /* Adjust based on row position */
+    left: 200px; /* Adjust based on column position */
+    width: 200px; /* Adjust based on cell size */
+    height: 400px; /* Adjust based on cell size */
+    background: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+    backdrop-filter: blur(5px); /* Blur effect */
+  }
+  
