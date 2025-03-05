@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 
-const YourCater = () => {
+const LottoNumbersApp = () => {
   const [showIframe, setShowIframe] = useState(false);
   const iframeContainerRef = useRef(null);
 
@@ -31,7 +31,7 @@ const YourCater = () => {
           setShowIframe(true);
         }}
       >
-      YOURCATER - Food Delivery Platform
+        LOTTO NUMBER APP
       </button>
 
       {/* Iframe Container */}
@@ -50,22 +50,17 @@ const YourCater = () => {
             ✖ Close
           </button>
 
-          {/* New Iframe Container with Overlay */}
-          <div className="iframe-container">
-            <iframe
-              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSNuUpoXxwLj2TDmAY1DVq8c3ntPU7VY4XtCG_AdeHpNo5akBiXiSJK3L1ZbxtEOTtZlf2SVgowgK7H/pubhtml?gid=0&single=true&widget=true&headers=false"
-              width="100%"
-              height="400px"
-              className="border-0"
-            ></iframe>
-            <div className="data-hide-overlay"></div>
-          </div>
+          {/* Embedded Lotto Numbers App */}
+          <iframe
+            src="https://puso90.github.io/Lotto-Numbers-App/"
+            width="100%"
+            height="400px"
+            className="border-0"
+          ></iframe>
         </div>
       )}
     </div>
   );
 };
 
-export default YourCater;
-
-
+export default LottoNumbersApp;

@@ -1,5 +1,6 @@
 import React from "react";
-import YourCater from "../components/YourCater"; // Import the new component
+import YourCater from "../components/YourCater"; // Import YourCater
+import LottoNumbersApp from "../components/LottoNumbersApp"; // Import new component
 
 const Models = () => {
   return (
@@ -22,12 +23,12 @@ const Models = () => {
             Here are a list of models:
           </h2>
           <ul className="italic block">
-            <li>
-              <a href="https://puso90.github.io/Lotto-Numbers-App/">
-                ♦ LOTTO NUMBER APP
-              </a>
+            <li className="flex items-center">
+              <span>♦</span>
+              <LottoNumbersApp />
             </li>
-            <li>
+            <li className="flex items-center">
+              <span>♦</span>
               <YourCater />
             </li>
           </ul>
